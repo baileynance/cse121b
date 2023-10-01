@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 const fullName = "Bailey Nance";
 const currentYear = 2023;
-const profilePicture = "images/649.jpeg"
+const profilePicture = "/images/649.jpeg"
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById("name");
