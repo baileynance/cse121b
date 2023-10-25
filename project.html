@@ -28,8 +28,15 @@
     <h1>W07: Final Project</h1>
     <h2>Dealing Cards</h2>
 
+    <button id="deal">Deal Cards</button>
+    <button id="clear">Clear Cards</button>
+
     <div id="cards">
     </div>
+
+    <p id="cardValue"></p>
+    <p id="winner"></p>
+
   </main>
   <footer>
     &copy;<span id="year"></span> | Week 07 - Final | CSE 121b
@@ -37,7 +44,10 @@
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
-  <script src="final.js"></script>
+  <script src="scripts/final.js"></script>
+  <script type="module">
+    import {checkWinner} from "./project.js";
+  </script>
 </body>
 
 </html>
